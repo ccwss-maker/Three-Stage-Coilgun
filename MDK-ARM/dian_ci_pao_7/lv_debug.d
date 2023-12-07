@@ -1,0 +1,12 @@
+dian_ci_pao_7\lv_debug.o: ..\GUI\lvgl\src\lv_misc\lv_debug.c
+dian_ci_pao_7\lv_debug.o: ..\GUI\lvgl\src\lv_misc\lv_debug.h
+dian_ci_pao_7\lv_debug.o: ..\GUI\lvgl\src\lv_misc\../lv_conf_internal.h
+dian_ci_pao_7\lv_debug.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stdint.h
+dian_ci_pao_7\lv_debug.o: ..\GUI\lvgl\src\lv_misc\../lv_conf_kconfig.h
+dian_ci_pao_7\lv_debug.o: ..\GUI\lvgl\src\lv_misc\../../../lv_conf.h
+dian_ci_pao_7\lv_debug.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+dian_ci_pao_7\lv_debug.o: ..\GUI\lvgl\src\lv_misc\lv_mem.h
+dian_ci_pao_7\lv_debug.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stddef.h
+dian_ci_pao_7\lv_debug.o: ..\GUI\lvgl\src\lv_misc\lv_log.h
+dian_ci_pao_7\lv_debug.o: ..\GUI\lvgl\src\lv_misc\lv_types.h
+dian_ci_pao_7\lv_debug.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\string.h

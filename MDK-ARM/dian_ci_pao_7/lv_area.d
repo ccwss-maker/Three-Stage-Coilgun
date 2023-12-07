@@ -1,0 +1,13 @@
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\lv_area.c
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\../lv_conf_internal.h
+dian_ci_pao_7\lv_area.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stdint.h
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\../lv_conf_kconfig.h
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\../../../lv_conf.h
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\lv_area.h
+dian_ci_pao_7\lv_area.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\string.h
+dian_ci_pao_7\lv_area.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\lv_mem.h
+dian_ci_pao_7\lv_area.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stddef.h
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\lv_log.h
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\lv_types.h
+dian_ci_pao_7\lv_area.o: ..\GUI\lvgl\src\lv_misc\lv_math.h

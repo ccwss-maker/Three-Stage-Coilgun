@@ -1,0 +1,9 @@
+dian_ci_pao_7\lv_printf.o: ..\GUI\lvgl\src\lv_misc\lv_printf.c
+dian_ci_pao_7\lv_printf.o: ..\GUI\lvgl\src\lv_misc\lv_printf.h
+dian_ci_pao_7\lv_printf.o: ..\GUI\lvgl\src\lv_misc\../lv_conf_internal.h
+dian_ci_pao_7\lv_printf.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stdint.h
+dian_ci_pao_7\lv_printf.o: ..\GUI\lvgl\src\lv_misc\../lv_conf_kconfig.h
+dian_ci_pao_7\lv_printf.o: ..\GUI\lvgl\src\lv_misc\../../../lv_conf.h
+dian_ci_pao_7\lv_printf.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+dian_ci_pao_7\lv_printf.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stddef.h
+dian_ci_pao_7\lv_printf.o: D:\Program\keil\ARM\ARMCC\Bin\..\include\stdbool.h

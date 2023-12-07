@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=1WSKC-7JZEN-TLMCD-80EC2-KDDAY-S1KV4
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.31.0.0
+Toolchain Path:  D:\Program\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+E:\Program\STM32_F411RE\dian_ci_pao_7\MDK-ARM\dian_ci_pao_7.uvprojx
+Project File Date:  10/27/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Program\keil\ARM\ARMCC\Bin'
+Build target 'dian_ci_pao_7'
+compiling Fire.c...
+..\GUI\lvgl_app\myself\lv_app.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Fire\fire.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\WLAN\wlan.h(23): warning:  #1295-D: Deprecated declaration ESP_Init - give arg types
+  	void ESP_Init();
+..\WLAN\wlan.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SD\sd.h(43): warning:  #1295-D: Deprecated declaration sd_reset - give arg types
+  void sd_reset();
+..\SD\sd.h(44): warning:  #1295-D: Deprecated declaration SD_Init - give arg types
+  void SD_Init();
+..\SD\sd.h(52): warning:  #1295-D: Deprecated declaration read_multiple_dma - give arg types
+  void read_multiple_dma();
+..\SD\sd.h(53): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI\lvgl_app\myself\lv_app.h(14): warning:  #1295-D: Deprecated declaration lv_demo_myself - give arg types
+  void lv_demo_myself();
+..\GUI\lvgl_app\myself\lv_app.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Fire\Fire.h(21): warning:  #1295-D: Deprecated declaration CS - give arg types
+  void CS();
+..\Fire\Fire.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Fire\Fire.c(305): warning:  #1-D: last line of file ends without a newline
+  }
+..\Fire\Fire.c(8): warning:  #177-D: variable "m_1"  was declared but never referenced
+  static double m_0=0.8832,m_1=2.68,m_2=100,m_3=1000;		/*g*/
+..\Fire\Fire.c(8): warning:  #177-D: variable "m_2"  was declared but never referenced
+  static double m_0=0.8832,m_1=2.68,m_2=100,m_3=1000;		/*g*/
+..\Fire\Fire.c(8): warning:  #177-D: variable "m_3"  was declared but never referenced
+  static double m_0=0.8832,m_1=2.68,m_2=100,m_3=1000;		/*g*/
+..\Fire\Fire.c: 16 warnings, 0 errors
+linking...
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for main.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_obj.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_img_decoder.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_fs.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_mem.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_txt.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_bar.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_btnmatrix.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_btn.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_cont.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_img.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_line.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_label.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_page.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_slider.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_switch.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_tabview.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_textarea.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_port_fs.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for lv_app.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for wlan.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for sd.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for ff.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+dian_ci_pao_7\dian_ci_pao_7.axf: Warning: L6480W: Disabling string merging for fire.o(.conststring). Relocated MOVT referring to string .conststring has a non-zero addend, which is not supported.
+Program Size: Code=207770 RO-data=208134 RW-data=1184 ZI-data=126064  
+Finished: 0 information, 24 warning and 0 error messages.
+FromELF: creating hex file...
+"dian_ci_pao_7\dian_ci_pao_7.axf" - 0 Error(s), 40 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_dian_ci_pao_7
+  D:\Program\keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Program\keil\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
